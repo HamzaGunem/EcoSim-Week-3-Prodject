@@ -931,3 +931,30 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.09.07-12.04.04:748][  0]LogContentStreaming: Texture pool size now 1000 MB
 [2020.09.07-12.04.23:766][784]LogAssetRegistry: Asset discovery search completed in 45.0635 seconds
 [2020.09.07-12.04.23:770][784]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2020.09.07-12.32.00:431][764]LogSlate: Took 0.000161 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.09.07-12.32.00:467][764]LogAssetEditorSubsystem: Opening Asset editor for World /Game/TopDownBP/Cornelius/CorneliusLevel.CorneliusLevel
+[2020.09.07-12.32.00:477][764]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2020.09.07-12.32.07:518][764]LogSlate: Window 'Save Content' being destroyed
+[2020.09.07-12.32.07:567][764]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2020.09.07-12.32.07:580][764]LogSavePackage: Moving '../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Saved/CorneliusLevel440E97444E2B4D65FD33EAB485F01913.tmp' to '../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/TopDownBP/Cornelius/CorneliusLevel.umap'
+[2020.09.07-12.32.07:581][764]LogFileHelpers: Saving map 'CorneliusLevel' took 0.036
+[2020.09.07-12.32.07:581][764]Cmd: MAP LOAD FILE="../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/TopDownBP/Cornelius/CorneliusLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.09.07-12.32.07:581][764]LightingResults: New page: Lighting Build
+[2020.09.07-12.32.07:581][764]LoadErrors: New page: Loading map: CorneliusLevel.umap
+[2020.09.07-12.32.07:583][764]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.09.07-12.32.07:583][764]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.07-12.32.07:583][764]MapCheck: New page: Map Check
+[2020.09.07-12.32.07:583][764]LightingResults: New page: Lighting Build
+[2020.09.07-12.32.07:593][764]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000024C05BB5A00), frame # 12764
+[2020.09.07-12.32.07:593][764]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000024C70801300), frame # 12764
+[2020.09.07-12.32.07:594][764]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2020.09.07-12.32.07:608][764]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.09.07-12.32.07:608][764]LogAIModule: Creating AISystem for world CorneliusLevel
+[2020.09.07-12.32.07:608][764]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000024C05A83800), frame # 12764
+[2020.09.07-12.32.07:608][764]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000024C0EE1C900), frame # 12764
+[2020.09.07-12.32.07:617][764]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2020.09.07-12.32.07:635][764]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.09.07-12.32.07:635][764]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,075ms to complete.
+[2020.09.07-12.32.07:635][764]LogFileHelpers: Loading map 'CorneliusLevel' took 0.054
+[2020.09.07-12.32.07:716][764]AssetCheck: New page: Asset Save: CorneliusLevel
+[2020.09.07-12.32.07:716][764]LogContentValidation: Display: Validating World /Game/TopDownBP/Cornelius/CorneliusLevel.CorneliusLevel
