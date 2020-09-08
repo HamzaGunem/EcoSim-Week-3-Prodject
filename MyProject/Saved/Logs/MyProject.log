@@ -929,3 +929,11 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.09.07-14.23.53:798][419]LogContentValidation: Display: Validating Material /Game/Jocke/WindParticle/Wind_mat.Wind_mat
 [2020.09.07-14.24.03:131][497]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/Jocke/WindParticle/Wind_mat_Inst.Wind_mat_Inst
 [2020.09.07-14.24.03:240][497]LogRenderer: Reallocating scene render targets to support 1336x920 Format 10 NumSamples 1 (Frame:1).
+[2020.09.08-07.08.25:884][373]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Jocke/Jocke" FILE="D:/code/EcoSim/MyProject/Content/Jocke/Jocke.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.09.08-07.08.25:897][373]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2020.09.08-07.08.25:926][373]LogSavePackage: Moving 'D:/code/EcoSim/MyProject/Saved/JockeD2FAE78A4A00D4E49C46F7AD80CAA903.tmp' to 'D:/code/EcoSim/MyProject/Content/Jocke/Jocke.umap'
+[2020.09.08-07.08.25:951][373]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Jocke/Jocke_BuiltData" FILE="D:/code/EcoSim/MyProject/Content/Jocke/Jocke_BuiltData.uasset" SILENT=true
+[2020.09.08-07.08.25:972][373]LogSavePackage: Moving 'D:/code/EcoSim/MyProject/Saved/Jocke_BuiltData4A196AC940803C3E2EE43A909645C6B5.tmp' to 'D:/code/EcoSim/MyProject/Content/Jocke/Jocke_BuiltData.uasset'
+[2020.09.08-07.08.25:982][373]AssetCheck: New page: Asset Save: multiple assets
+[2020.09.08-07.08.25:982][373]LogContentValidation: Display: Validating World /Game/Jocke/Jocke.Jocke
+[2020.09.08-07.08.25:982][373]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Jocke/Jocke_BuiltData.Jocke_BuiltData
