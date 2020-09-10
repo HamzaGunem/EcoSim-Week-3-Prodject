@@ -1,8 +1,8 @@
-﻿Log file open, 09/07/20 14:03:29
+﻿Log file open, 09/10/20 09:20:23
 LogInit: Display: Running engine for game: MyProject
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.245176
+LogStats: Stats thread started at 0.241299
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -145,7 +145,7 @@ LogInit: Compiled with Visual C++: 19.24.28315.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.25
 LogInit: Command Line: 
-LogInit: Base Directory: D:/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Base Directory: D:/UE_4.25/Engine/Binaries/Win64/
 LogInit: Allocator: TBB
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 26
@@ -176,7 +176,7 @@ LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 3
 LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
 LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
 LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
-LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Fork/EcoSim-Week-3-Prodject/MyProject/Saved/Config/Windows/Engine.ini]
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/hamgun/Documents/GitHub/EcoSim-Week-3-Prodject/MyProject/Saved/Config/Windows/Engine.ini]
 LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
 LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
 LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
@@ -194,740 +194,608 @@ LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.09.07-12.03.30:906][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2020.09.07-12.03.30:906][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2020.09.07-12.03.30:906][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Fork/EcoSim-Week-3-Prodject/MyProject/Saved/Config/Windows/Engine.ini]
-[2020.09.07-12.03.30:906][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2020.09.07-12.03.30:906][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Fork/EcoSim-Week-3-Prodject/MyProject/Saved/Config/Windows/Engine.ini]
-[2020.09.07-12.03.30:906][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Fork/EcoSim-Week-3-Prodject/MyProject/Saved/Config/Windows/Engine.ini]
-[2020.09.07-12.03.30:906][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2020.09.07-12.03.30:906][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2020.09.07-12.03.30:906][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2020.09.07-12.03.30:906][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2020.09.07-12.03.30:906][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2020.09.07-12.03.30:906][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2020.09.07-12.03.30:906][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2020.09.07-12.03.30:906][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2020.09.07-12.03.30:906][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2020.09.07-12.03.30:906][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2020.09.07-12.03.30:906][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2020.09.07-12.03.30:906][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2020.09.07-12.03.30:906][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2020.09.07-12.03.30:906][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2020.09.07-12.03.30:906][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Fork/EcoSim-Week-3-Prodject/MyProject/Saved/Config/Windows/Engine.ini]
-[2020.09.07-12.03.30:906][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2020.09.07-12.03.30:906][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2020.09.07-12.03.30:906][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2020.09.07-12.03.30:906][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2020.09.07-12.03.30:906][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2020.09.07-12.03.30:906][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2020.09.07-12.03.30:906][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2020.09.07-12.03.30:906][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2020.09.07-12.03.30:906][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2020.09.07-12.03.30:906][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2020.09.07-12.03.30:906][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2020.09.07-12.03.30:906][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2020.09.07-12.03.30:906][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2020.09.07-12.03.30:906][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Fork/EcoSim-Week-3-Prodject/MyProject/Saved/Config/Windows/Engine.ini]
-[2020.09.07-12.03.30:906][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Fork/EcoSim-Week-3-Prodject/MyProject/Saved/Config/Windows/Engine.ini]
-[2020.09.07-12.03.30:910][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Fork/EcoSim-Week-3-Prodject/MyProject/Saved/Config/Windows/Scalability.ini]
-[2020.09.07-12.03.30:910][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.09.07-12.03.30:910][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.09.07-12.03.30:910][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Fork/EcoSim-Week-3-Prodject/MyProject/Saved/Config/Windows/Scalability.ini]
-[2020.09.07-12.03.30:910][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.09.07-12.03.30:910][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Fork/EcoSim-Week-3-Prodject/MyProject/Saved/Config/Windows/Scalability.ini]
-[2020.09.07-12.03.30:910][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.09.07-12.03.30:910][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.09.07-12.03.30:910][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.09.07-12.03.30:910][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.09.07-12.03.30:910][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.09.07-12.03.30:910][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.09.07-12.03.30:910][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.09.07-12.03.30:910][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.09.07-12.03.30:910][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.09.07-12.03.30:910][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.09.07-12.03.30:910][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.09.07-12.03.30:910][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.09.07-12.03.30:910][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.09.07-12.03.30:910][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.09.07-12.03.30:910][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.09.07-12.03.30:910][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.09.07-12.03.30:910][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.09.07-12.03.30:910][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.09.07-12.03.30:910][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Fork/EcoSim-Week-3-Prodject/MyProject/Saved/Config/Windows/Scalability.ini]
-[2020.09.07-12.03.30:910][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.09.07-12.03.30:910][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.09.07-12.03.30:910][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.09.07-12.03.30:910][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.09.07-12.03.30:910][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.09.07-12.03.30:910][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.09.07-12.03.30:910][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.09.07-12.03.30:910][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.09.07-12.03.30:910][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.09.07-12.03.30:910][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.09.07-12.03.30:910][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.09.07-12.03.30:910][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.09.07-12.03.30:910][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.09.07-12.03.30:910][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.09.07-12.03.30:910][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.09.07-12.03.30:910][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.09.07-12.03.30:910][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.09.07-12.03.30:910][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.09.07-12.03.30:910][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.09.07-12.03.30:910][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.09.07-12.03.30:910][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.09.07-12.03.30:910][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.09.07-12.03.30:910][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.09.07-12.03.30:910][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.09.07-12.03.30:910][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.09.07-12.03.30:910][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.09.07-12.03.30:910][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.09.07-12.03.30:910][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.09.07-12.03.30:910][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.09.07-12.03.30:911][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.09.07-12.03.30:911][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Fork/EcoSim-Week-3-Prodject/MyProject/Saved/Config/Windows/Scalability.ini]
-[2020.09.07-12.03.30:911][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.09.07-12.03.30:911][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.09.07-12.03.30:911][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.09.07-12.03.30:911][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.09.07-12.03.30:911][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.09.07-12.03.30:911][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.09.07-12.03.30:911][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.09.07-12.03.30:911][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.09.07-12.03.30:911][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.09.07-12.03.30:911][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Fork/EcoSim-Week-3-Prodject/MyProject/Saved/Config/Windows/Scalability.ini]
-[2020.09.07-12.03.30:911][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.09.07-12.03.30:911][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.09.07-12.03.30:911][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.09.07-12.03.30:911][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.09.07-12.03.30:911][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.09.07-12.03.30:911][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.09.07-12.03.30:911][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.09.07-12.03.30:911][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.09.07-12.03.30:911][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.09.07-12.03.30:911][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.09.07-12.03.30:911][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.09.07-12.03.30:911][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2020.09.07-12.03.30:911][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.09.07-12.03.30:911][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.09.07-12.03.30:911][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.09.07-12.03.30:911][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.09.07-12.03.30:911][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.09.07-12.03.30:911][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.09.07-12.03.30:911][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.09.07-12.03.30:911][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.09.07-12.03.30:911][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.09.07-12.03.30:911][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.09.07-12.03.30:911][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.09.07-12.03.30:911][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.09.07-12.03.30:911][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.09.07-12.03.30:911][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.09.07-12.03.30:911][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Fork/EcoSim-Week-3-Prodject/MyProject/Saved/Config/Windows/Scalability.ini]
-[2020.09.07-12.03.30:911][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.09.07-12.03.30:911][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.09.07-12.03.30:911][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Fork/EcoSim-Week-3-Prodject/MyProject/Saved/Config/Windows/Scalability.ini]
-[2020.09.07-12.03.30:911][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.09.07-12.03.30:911][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.09.07-12.03.30:911][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.09.07-12.03.30:911][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2020.09.07-12.03.30:911][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2020.09.07-12.03.30:911][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2020.09.07-12.03.30:911][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2020.09.07-12.03.30:911][  0]LogInit: Selected Device Profile: [Windows]
-[2020.09.07-12.03.30:911][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.09.07-12.03.30:911][  0]LogHAL: Display: Platform has ~ 16 GB [17047339008 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2020.09.07-12.03.30:911][  0]LogInit: Going up to parent DeviceProfile []
-[2020.09.07-12.03.30:911][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Fork/EcoSim-Week-3-Prodject/MyProject/Saved/Config/Windows/Scalability.ini]
-[2020.09.07-12.03.30:911][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.09.07-12.03.30:911][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.09.07-12.03.30:911][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Fork/EcoSim-Week-3-Prodject/MyProject/Saved/Config/Windows/Scalability.ini]
-[2020.09.07-12.03.30:911][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.09.07-12.03.30:911][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Fork/EcoSim-Week-3-Prodject/MyProject/Saved/Config/Windows/Scalability.ini]
-[2020.09.07-12.03.30:911][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.09.07-12.03.30:911][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.09.07-12.03.30:911][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.09.07-12.03.30:911][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.09.07-12.03.30:911][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.09.07-12.03.30:911][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.09.07-12.03.30:912][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.09.07-12.03.30:912][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.09.07-12.03.30:912][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.09.07-12.03.30:912][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.09.07-12.03.30:912][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.09.07-12.03.30:912][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.09.07-12.03.30:912][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.09.07-12.03.30:912][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.09.07-12.03.30:912][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.09.07-12.03.30:912][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.09.07-12.03.30:912][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.09.07-12.03.30:912][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.09.07-12.03.30:912][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Fork/EcoSim-Week-3-Prodject/MyProject/Saved/Config/Windows/Scalability.ini]
-[2020.09.07-12.03.30:912][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.09.07-12.03.30:912][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.09.07-12.03.30:912][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.09.07-12.03.30:912][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.09.07-12.03.30:912][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.09.07-12.03.30:912][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.09.07-12.03.30:912][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.09.07-12.03.30:912][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.09.07-12.03.30:912][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.09.07-12.03.30:912][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.09.07-12.03.30:912][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.09.07-12.03.30:912][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.09.07-12.03.30:912][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.09.07-12.03.30:912][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.09.07-12.03.30:912][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.09.07-12.03.30:912][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.09.07-12.03.30:912][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.09.07-12.03.30:912][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.09.07-12.03.30:912][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.09.07-12.03.30:912][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.09.07-12.03.30:912][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.09.07-12.03.30:912][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.09.07-12.03.30:912][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.09.07-12.03.30:912][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.09.07-12.03.30:912][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.09.07-12.03.30:912][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.09.07-12.03.30:912][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.09.07-12.03.30:912][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.09.07-12.03.30:912][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.09.07-12.03.30:912][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.09.07-12.03.30:912][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Fork/EcoSim-Week-3-Prodject/MyProject/Saved/Config/Windows/Scalability.ini]
-[2020.09.07-12.03.30:912][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.09.07-12.03.30:912][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.09.07-12.03.30:912][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.09.07-12.03.30:912][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.09.07-12.03.30:912][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.09.07-12.03.30:912][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.09.07-12.03.30:912][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.09.07-12.03.30:912][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.09.07-12.03.30:912][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.09.07-12.03.30:912][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Fork/EcoSim-Week-3-Prodject/MyProject/Saved/Config/Windows/Scalability.ini]
-[2020.09.07-12.03.30:912][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.09.07-12.03.30:912][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.09.07-12.03.30:912][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.09.07-12.03.30:912][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.09.07-12.03.30:912][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.09.07-12.03.30:912][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.09.07-12.03.30:912][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.09.07-12.03.30:912][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.09.07-12.03.30:912][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.09.07-12.03.30:912][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.09.07-12.03.30:912][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.09.07-12.03.30:912][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2020.09.07-12.03.30:912][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.09.07-12.03.30:912][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.09.07-12.03.30:912][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.09.07-12.03.30:912][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.09.07-12.03.30:912][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.09.07-12.03.30:912][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.09.07-12.03.30:912][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.09.07-12.03.30:912][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.09.07-12.03.30:912][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.09.07-12.03.30:913][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.09.07-12.03.30:913][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.09.07-12.03.30:913][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.09.07-12.03.30:913][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.09.07-12.03.30:913][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.09.07-12.03.30:913][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Fork/EcoSim-Week-3-Prodject/MyProject/Saved/Config/Windows/Scalability.ini]
-[2020.09.07-12.03.30:913][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.09.07-12.03.30:913][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.09.07-12.03.30:913][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Fork/EcoSim-Week-3-Prodject/MyProject/Saved/Config/Windows/Scalability.ini]
-[2020.09.07-12.03.30:913][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.09.07-12.03.30:913][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.09.07-12.03.30:913][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.09.07-12.03.30:913][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2020.09.07-12.03.30:913][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2020.09.07-12.03.30:913][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2020.09.07-12.03.30:913][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2020.09.07-12.03.30:913][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2020.09.07-12.03.30:918][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2020.09.07-12.03.30:918][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2020.09.07-12.03.30:918][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
-[2020.09.07-12.03.30:918][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Fork/EcoSim-Week-3-Prodject/MyProject/Saved/Config/Windows/Engine.ini]
-[2020.09.07-12.03.30:918][  0]LogInit: Computer: PC24
-[2020.09.07-12.03.30:918][  0]LogInit: User: cordah
-[2020.09.07-12.03.30:918][  0]LogInit: CPU Page size=4096, Cores=4
-[2020.09.07-12.03.30:918][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.09.07-12.03.30:918][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2020.09.07-12.03.30:918][  0]LogMemory: Platform Memory Stats for Windows
-[2020.09.07-12.03.30:918][  0]LogMemory: Process Physical Memory: 112.48 MB used, 112.49 MB peak
-[2020.09.07-12.03.30:918][  0]LogMemory: Process Virtual Memory: 95.28 MB used, 95.28 MB peak
-[2020.09.07-12.03.30:918][  0]LogMemory: Physical Memory: 6765.42 MB used,  9492.19 MB free, 16257.61 MB total
-[2020.09.07-12.03.30:918][  0]LogMemory: Virtual Memory: 5127.11 MB used,  134212600.00 MB free, 134217728.00 MB total
-[2020.09.07-12.03.30:923][  0]LogWindows: WindowsPlatformFeatures enabled
-[2020.09.07-12.03.31:148][  0]LogInit: Physics initialised using underlying interface: PhysX
-[2020.09.07-12.03.31:148][  0]LogInit: Using OS detected language (sv-SE).
-[2020.09.07-12.03.31:148][  0]LogInit: Using OS detected locale (sv-SE).
-[2020.09.07-12.03.31:150][  0]LogTextLocalizationManager: No localization for 'sv-SE' exists, so 'en' will be used for the language.
-[2020.09.07-12.03.31:364][  0]LogInit: Setting process to per monitor DPI aware
-[2020.09.07-12.03.31:444][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2020.09.07-12.03.31:444][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2020.09.07-12.03.33:888][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.09.07-12.03.33:888][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2020.09.07-12.03.33:888][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2020.09.07-12.03.33:888][  0]LogD3D11RHI: D3D11 adapters:
-[2020.09.07-12.03.33:956][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 3GB' (Feature Level 11_0)
-[2020.09.07-12.03.33:956][  0]LogD3D11RHI:       2988/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2020.09.07-12.03.33:978][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
-[2020.09.07-12.03.33:978][  0]LogD3D11RHI:       128/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
-[2020.09.07-12.03.33:980][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.09.07-12.03.33:980][  0]LogD3D11RHI:       0/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.09.07-12.03.33:980][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.09.07-12.03.33:986][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.09.07-12.03.33:986][  0]LogD3D11RHI:     GPU DeviceId: 0x1c02 (for the marketing name, search the web for "GPU Device Id")
-[2020.09.07-12.03.33:986][  0]LogWindows: EnumDisplayDevices:
-[2020.09.07-12.03.33:987][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:0 D:1)
-[2020.09.07-12.03.33:987][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2020.09.07-12.03.33:987][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2020.09.07-12.03.33:987][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 3GB' (P:1 D:1)
-[2020.09.07-12.03.33:988][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
-[2020.09.07-12.03.33:988][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
-[2020.09.07-12.03.33:988][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
-[2020.09.07-12.03.33:988][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2020.09.07-12.03.33:988][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 3GB
-[2020.09.07-12.03.33:988][  0]LogD3D11RHI:   Driver Version: 436.15 (internal:26.21.14.3615, unified:436.15)
-[2020.09.07-12.03.33:988][  0]LogD3D11RHI:      Driver Date: 8-24-2019
-[2020.09.07-12.03.33:988][  0]LogRHI: Texture pool is 2091 MB (70% of 2988 MB)
-[2020.09.07-12.03.34:033][  0]LogD3D11RHI: RHI has support for 64 bit atomics
-[2020.09.07-12.03.34:034][  0]LogD3D11RHI: [Aftermath] Enabled and primed
-[2020.09.07-12.03.34:035][  0]LogD3D11RHI: Async texture creation enabled
-[2020.09.07-12.03.34:035][  0]LogD3D11RHI: Array index from any shader is supported
-[2020.09.07-12.03.34:125][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2020.09.07-12.03.34:452][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2020.09.07-12.03.34:489][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2020.09.07-12.03.34:489][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2020.09.07-12.03.34:489][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2020.09.07-12.03.34:489][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2020.09.07-12.03.34:489][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2020.09.07-12.03.34:489][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2020.09.07-12.03.34:489][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2020.09.07-12.03.34:489][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2020.09.07-12.03.34:489][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2020.09.07-12.03.34:489][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2020.09.07-12.03.34:649][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2020.09.07-12.03.34:649][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2020.09.07-12.03.34:680][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
-[2020.09.07-12.03.34:704][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2020.09.07-12.03.34:741][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2020.09.07-12.03.34:779][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2020.09.07-12.03.34:835][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2020.09.07-12.03.34:938][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2020.09.07-12.03.34:974][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2020.09.07-12.03.35:025][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2020.09.07-12.03.35:025][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2020.09.07-12.03.35:053][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2020.09.07-12.03.35:053][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2020.09.07-12.03.35:076][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2020.09.07-12.03.35:103][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2020.09.07-12.03.35:125][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2020.09.07-12.03.35:209][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2020.09.07-12.03.35:209][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.09.07-12.03.35:297][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2020.09.07-12.03.35:609][  0]LogShaderCompilers: Guid format shader working directory is -5 characters bigger than the processId version (../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Intermediate/Shaders/WorkingDirectory/7320/).
-[2020.09.07-12.03.35:609][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/cordah/AppData/Local/Temp/UnrealShaderWorkingDir/987336664709657CDC10C2A49B887AA2/'.
-[2020.09.07-12.03.35:609][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2020.09.07-12.03.35:609][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2020.09.07-12.03.35:609][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.09.07-12.03.38:532][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.09.07-12.03.38:583][  0]LogDerivedDataCache: Loaded boot cache 0.05s 77MB C:/Users/cordah/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2020.09.07-12.03.38:583][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/cordah/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
-[2020.09.07-12.03.38:583][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.09.07-12.03.38:583][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.09.07-12.03.38:584][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.09.07-12.03.38:584][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.09.07-12.03.38:600][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.09.07-12.03.38:600][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.09.07-12.03.38:600][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2020.09.07-12.03.38:601][  0]LogDerivedDataCache: Using Local data cache path C:/Users/cordah/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.09.07-12.03.38:601][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.09.07-12.03.38:601][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.09.07-12.03.38:654][  0]LogSlate: Using FreeType 2.10.0
-[2020.09.07-12.03.38:662][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.09.07-12.03.38:704][  0]LogAssetRegistry: FAssetRegistry took 0.0023 seconds to start up
-[2020.09.07-12.03.38:924][  0]LogInit: Selected Device Profile: [Windows]
-[2020.09.07-12.03.39:299][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.09.07-12.03.39:299][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2020.09.07-12.03.39:299][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2020.09.07-12.03.39:299][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2020.09.07-12.03.39:299][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2020.09.07-12.03.39:354][  0]LogNetVersion: MyProject 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 709303259)
-[2020.09.07-12.03.40:023][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000024C6A131800), frame # 0
-[2020.09.07-12.03.40:023][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000024C6A096AC0), frame # 0
-[2020.09.07-12.03.40:024][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000024C6A1CA800), frame # 0
-[2020.09.07-12.03.40:074][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.043883 seconds
-[2020.09.07-12.03.40:079][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
-[2020.09.07-12.03.40:079][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
-[2020.09.07-12.03.40:079][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.09.07-12.03.40:376][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.09.07-12.03.40:416][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.09.07-12.03.40:485][  0]SourceControl: Source control is disabled
-[2020.09.07-12.03.40:485][  0]SourceControl: Source control is disabled
-[2020.09.07-12.03.40:487][  0]SourceControl: Source control is disabled
-[2020.09.07-12.03.40:490][  0]SourceControl: Source control is disabled
-[2020.09.07-12.03.40:496][  0]SourceControl: Source control is disabled
-[2020.09.07-12.03.40:709][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.09.07-12.03.40:728][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.09.07-12.03.40:728][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.09.07-12.03.40:775][  0]LogOcInput: OculusInput pre-init called
-[2020.09.07-12.03.40:783][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2020.09.07-12.03.40:783][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2020.09.07-12.03.40:840][  0]LogEngine: Initializing Engine...
-[2020.09.07-12.03.40:842][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.09.07-12.03.40:842][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
-[2020.09.07-12.03.40:843][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2020.09.07-12.03.40:961][  0]LogInit: Initializing FReadOnlyCVARCache
-[2020.09.07-12.03.40:969][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.09.07-12.03.40:969][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000024C70447C00), frame # 0
-[2020.09.07-12.03.40:969][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000024C7044FB00), frame # 0
-[2020.09.07-12.03.40:977][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.09.07-12.03.40:977][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.09.07-12.03.40:977][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.09.07-12.03.40:977][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.09.07-12.03.40:977][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.09.07-12.03.40:977][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.09.07-12.03.40:977][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.09.07-12.03.40:977][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.09.07-12.03.40:977][  0]LogAudio: Display: Using built-in audio occlusion.
-[2020.09.07-12.03.40:977][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2020.09.07-12.03.40:999][  0]LogAudioMixer: Display: 0: FrontLeft
-[2020.09.07-12.03.40:999][  0]LogAudioMixer: Display: 1: FrontRight
-[2020.09.07-12.03.41:058][  0]LogAudioMixer: Display: Using Audio Device Hörlurar på headset (HyperX 7.1 Audio)
-[2020.09.07-12.03.41:060][  0]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.09.07-12.03.41:062][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.09.07-12.03.41:062][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.09.07-12.03.41:063][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.09.07-12.03.41:063][  0]LogInit: FAudioDevice initialized.
-[2020.09.07-12.03.41:064][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2020.09.07-12.03.41:141][  0]LogDerivedDataCache: Saved boot cache 0.08s 77MB C:/Users/cordah/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2020.09.07-12.03.41:145][  0]LogInit: Texture streaming: Enabled
-[2020.09.07-12.03.41:160][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.09.07-12.03.41:161][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2020.09.07-12.03.41:162][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2020.09.07-12.03.41:180][  0]LogInit: Transaction tracking system initialized
-[2020.09.07-12.03.41:200][  0]BlueprintLog: New page: Editor Load
-[2020.09.07-12.03.41:297][  0]LocalizationService: Localization service is disabled
-[2020.09.07-12.03.41:488][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.09.07-12.03.41:488][  0]LogCook: Display: Mobile HDR setting 1
-[2020.09.07-12.03.41:607][  0]LogFileCache: Scanning file cache for directory 'D:/Fork/EcoSim-Week-3-Prodject/MyProject/Content/' took 0.00s
-[2020.09.07-12.03.41:818][  0]SourceControl: Source control is disabled
-[2020.09.07-12.03.41:818][  0]LogUnrealEdMisc: Loading editor; pre map load, took 13.142
-[2020.09.07-12.03.41:861][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 D:/Epic Games/UE_4.25/FeaturePacks/StarterContent.upack)
-[2020.09.07-12.03.42:082][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
-[2020.09.07-12.03.42:117][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Architecture/Floor_400x400.uasset"
-[2020.09.07-12.03.42:143][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Architecture/Pillar_50x500.uasset"
-[2020.09.07-12.03.42:175][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
-[2020.09.07-12.03.42:287][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Architecture/Wall_400x200.uasset"
-[2020.09.07-12.03.42:334][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Architecture/Wall_400x300.uasset"
-[2020.09.07-12.03.42:361][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Architecture/Wall_400x400.uasset"
-[2020.09.07-12.03.42:380][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Architecture/Wall_500x500.uasset"
-[2020.09.07-12.03.42:402][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
-[2020.09.07-12.03.42:428][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
-[2020.09.07-12.03.42:437][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
-[2020.09.07-12.03.42:450][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
-[2020.09.07-12.03.42:653][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Audio/Collapse01.uasset"
-[2020.09.07-12.03.42:686][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Audio/Collapse02.uasset"
-[2020.09.07-12.03.42:696][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Audio/Collapse_Cue.uasset"
-[2020.09.07-12.03.42:713][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Audio/Explosion01.uasset"
-[2020.09.07-12.03.42:737][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Audio/Explosion02.uasset"
-[2020.09.07-12.03.42:744][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Audio/Explosion_Cue.uasset"
-[2020.09.07-12.03.42:769][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Audio/Fire01.uasset"
-[2020.09.07-12.03.42:779][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Audio/Fire01_Cue.uasset"
-[2020.09.07-12.03.42:805][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Audio/Fire_Sparks01.uasset"
-[2020.09.07-12.03.42:820][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
-[2020.09.07-12.03.42:965][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Audio/Light01.uasset"
-[2020.09.07-12.03.42:986][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Audio/Light01_Cue.uasset"
-[2020.09.07-12.03.43:013][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Audio/Light02.uasset"
-[2020.09.07-12.03.43:026][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Audio/Light02_Cue.uasset"
-[2020.09.07-12.03.43:066][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Audio/Smoke01.uasset"
-[2020.09.07-12.03.43:084][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Audio/Smoke01_Cue.uasset"
-[2020.09.07-12.03.43:103][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
-[2020.09.07-12.03.43:142][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Audio/Starter_Birds01.uasset"
-[2020.09.07-12.03.43:272][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Audio/Starter_Music01.uasset"
-[2020.09.07-12.03.43:291][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
-[2020.09.07-12.03.43:333][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Audio/Starter_Wind05.uasset"
-[2020.09.07-12.03.43:371][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Audio/Starter_Wind06.uasset"
-[2020.09.07-12.03.43:398][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Audio/Steam01.uasset"
-[2020.09.07-12.03.43:493][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Audio/Steam01_Cue.uasset"
-[2020.09.07-12.03.43:532][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
-[2020.09.07-12.03.43:565][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
-[2020.09.07-12.03.43:592][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
-[2020.09.07-12.03.43:615][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
-[2020.09.07-12.03.43:660][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
-[2020.09.07-12.03.43:681][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
-[2020.09.07-12.03.43:702][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
-[2020.09.07-12.03.43:811][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
-[2020.09.07-12.03.43:827][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
-[2020.09.07-12.03.43:847][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
-[2020.09.07-12.03.43:876][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
-[2020.09.07-12.03.43:895][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
-[2020.09.07-12.03.43:915][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
-[2020.09.07-12.03.43:937][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
-[2020.09.07-12.03.43:971][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
-[2020.09.07-12.03.43:994][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
-[2020.09.07-12.03.44:956][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
-[2020.09.07-12.03.44:988][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Maps/Advanced_Lighting.umap"
-[2020.09.07-12.03.45:168][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
-[2020.09.07-12.03.45:227][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Maps/Minimal_Default.umap"
-[2020.09.07-12.03.45:261][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
-[2020.09.07-12.03.45:361][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Maps/StarterMap.umap"
-[2020.09.07-12.03.45:729][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
-[2020.09.07-12.03.45:768][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Materials/M_AssetPlatform.uasset"
-[2020.09.07-12.03.45:797][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Materials/M_Basic_Floor.uasset"
-[2020.09.07-12.03.45:814][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Materials/M_Basic_Wall.uasset"
-[2020.09.07-12.03.45:846][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
-[2020.09.07-12.03.45:959][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
-[2020.09.07-12.03.45:984][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
-[2020.09.07-12.03.45:999][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
-[2020.09.07-12.03.46:014][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
-[2020.09.07-12.03.46:030][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
-[2020.09.07-12.03.46:046][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
-[2020.09.07-12.03.46:062][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
-[2020.09.07-12.03.46:078][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
-[2020.09.07-12.03.46:097][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
-[2020.09.07-12.03.46:125][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
-[2020.09.07-12.03.46:289][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
-[2020.09.07-12.03.46:331][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
-[2020.09.07-12.03.46:365][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
-[2020.09.07-12.03.46:397][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Materials/M_Glass.uasset"
-[2020.09.07-12.03.46:419][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Materials/M_Ground_Grass.uasset"
-[2020.09.07-12.03.46:439][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
-[2020.09.07-12.03.46:456][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Materials/M_Ground_Moss.uasset"
-[2020.09.07-12.03.46:531][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
-[2020.09.07-12.03.46:553][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
-[2020.09.07-12.03.46:575][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
-[2020.09.07-12.03.46:598][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Materials/M_Metal_Copper.uasset"
-[2020.09.07-12.03.46:625][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Materials/M_Metal_Gold.uasset"
-[2020.09.07-12.03.46:638][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Materials/M_Metal_Rust.uasset"
-[2020.09.07-12.03.46:650][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Materials/M_Metal_Steel.uasset"
-[2020.09.07-12.03.46:678][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
-[2020.09.07-12.03.46:693][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
-[2020.09.07-12.03.46:810][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
-[2020.09.07-12.03.46:844][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Materials/M_Rock_Slate.uasset"
-[2020.09.07-12.03.46:862][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
-[2020.09.07-12.03.46:883][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
-[2020.09.07-12.03.46:903][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
-[2020.09.07-12.03.46:913][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Materials/M_Tech_Panel.uasset"
-[2020.09.07-12.03.46:923][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Materials/M_Water_Lake.uasset"
-[2020.09.07-12.03.46:944][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Materials/M_Water_Ocean.uasset"
-[2020.09.07-12.03.46:954][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
-[2020.09.07-12.03.46:976][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
-[2020.09.07-12.03.46:995][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Materials/M_Wood_Oak.uasset"
-[2020.09.07-12.03.47:011][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Materials/M_Wood_Pine.uasset"
-[2020.09.07-12.03.47:117][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
-[2020.09.07-12.03.47:149][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
-[2020.09.07-12.03.47:189][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Particles/P_Explosion.uasset"
-[2020.09.07-12.03.47:207][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Particles/P_Fire.uasset"
-[2020.09.07-12.03.47:223][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Particles/P_Smoke.uasset"
-[2020.09.07-12.03.47:233][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Particles/P_Sparks.uasset"
-[2020.09.07-12.03.47:246][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Particles/P_Steam_Lit.uasset"
-[2020.09.07-12.03.47:264][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Particles/Materials/M_Burst.uasset"
-[2020.09.07-12.03.47:282][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
-[2020.09.07-12.03.47:295][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
-[2020.09.07-12.03.47:446][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
-[2020.09.07-12.03.47:484][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
-[2020.09.07-12.03.47:505][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
-[2020.09.07-12.03.47:526][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
-[2020.09.07-12.03.47:555][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
-[2020.09.07-12.03.47:572][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
-[2020.09.07-12.03.47:594][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Particles/Materials/M_Spark.uasset"
-[2020.09.07-12.03.47:611][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Props/MaterialSphere.uasset"
-[2020.09.07-12.03.47:734][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Props/SM_Bush.uasset"
-[2020.09.07-12.03.47:753][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Props/SM_Chair.uasset"
-[2020.09.07-12.03.47:782][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Props/SM_CornerFrame.uasset"
-[2020.09.07-12.03.47:803][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Props/SM_Couch.uasset"
-[2020.09.07-12.03.47:817][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Props/SM_Door.uasset"
-[2020.09.07-12.03.47:834][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Props/SM_DoorFrame.uasset"
-[2020.09.07-12.03.47:863][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Props/SM_GlassWindow.uasset"
-[2020.09.07-12.03.47:889][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
-[2020.09.07-12.03.47:906][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
-[2020.09.07-12.03.48:220][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
-[2020.09.07-12.03.48:252][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Props/SM_PillarFrame.uasset"
-[2020.09.07-12.03.48:285][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Props/SM_PillarFrame300.uasset"
-[2020.09.07-12.03.48:303][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Props/SM_Rock.uasset"
-[2020.09.07-12.03.48:324][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Props/SM_Shelf.uasset"
-[2020.09.07-12.03.48:338][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Props/SM_Stairs.uasset"
-[2020.09.07-12.03.48:360][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Props/SM_Statue.uasset"
-[2020.09.07-12.03.48:484][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Props/SM_TableRound.uasset"
-[2020.09.07-12.03.48:505][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Props/SM_WindowFrame.uasset"
-[2020.09.07-12.03.48:518][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Props/Materials/M_Bush.uasset"
-[2020.09.07-12.03.48:527][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Props/Materials/M_Chair.uasset"
-[2020.09.07-12.03.48:536][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Props/Materials/M_Door.uasset"
-[2020.09.07-12.03.48:547][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Props/Materials/M_Frame.uasset"
-[2020.09.07-12.03.48:563][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Props/Materials/M_Lamp.uasset"
-[2020.09.07-12.03.48:573][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
-[2020.09.07-12.03.48:601][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
-[2020.09.07-12.03.48:659][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Props/Materials/M_Rock.uasset"
-[2020.09.07-12.03.48:680][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Props/Materials/M_Shelf.uasset"
-[2020.09.07-12.03.48:696][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Props/Materials/M_Statue.uasset"
-[2020.09.07-12.03.48:726][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
-[2020.09.07-12.03.48:743][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Props/Materials/M_TableRound.uasset"
-[2020.09.07-12.03.48:756][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Shapes/Shape_Cone.uasset"
-[2020.09.07-12.03.48:791][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Shapes/Shape_Cube.uasset"
-[2020.09.07-12.03.48:811][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
-[2020.09.07-12.03.48:830][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
-[2020.09.07-12.03.48:841][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Shapes/Shape_Pipe.uasset"
-[2020.09.07-12.03.48:904][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
-[2020.09.07-12.03.48:943][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
-[2020.09.07-12.03.48:990][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Shapes/Shape_Plane.uasset"
-[2020.09.07-12.03.49:017][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
-[2020.09.07-12.03.49:043][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Shapes/Shape_Sphere.uasset"
-[2020.09.07-12.03.49:062][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Shapes/Shape_Torus.uasset"
-[2020.09.07-12.03.49:093][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Shapes/Shape_Trim.uasset"
-[2020.09.07-12.03.49:143][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
-[2020.09.07-12.03.49:206][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
-[2020.09.07-12.03.49:224][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
-[2020.09.07-12.03.49:252][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Shapes/Shape_Tube.uasset"
-[2020.09.07-12.03.49:267][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
-[2020.09.07-12.03.49:501][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
-[2020.09.07-12.03.49:590][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
-[2020.09.07-12.03.49:670][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
-[2020.09.07-12.03.49:768][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
-[2020.09.07-12.03.49:900][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
-[2020.09.07-12.03.49:960][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
-[2020.09.07-12.03.50:102][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
-[2020.09.07-12.03.50:177][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
-[2020.09.07-12.03.50:293][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
-[2020.09.07-12.03.50:381][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
-[2020.09.07-12.03.50:493][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
-[2020.09.07-12.03.50:596][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
-[2020.09.07-12.03.50:679][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
-[2020.09.07-12.03.50:960][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
-[2020.09.07-12.03.51:047][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
-[2020.09.07-12.03.51:073][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Burst_M.uasset"
-[2020.09.07-12.03.51:096][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Bush_D.uasset"
-[2020.09.07-12.03.51:206][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Bush_N.uasset"
-[2020.09.07-12.03.51:234][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
-[2020.09.07-12.03.51:264][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
-[2020.09.07-12.03.51:298][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Chair_M.uasset"
-[2020.09.07-12.03.51:419][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Chair_N.uasset"
-[2020.09.07-12.03.51:454][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
-[2020.09.07-12.03.51:540][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
-[2020.09.07-12.03.51:570][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
-[2020.09.07-12.03.51:695][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
-[2020.09.07-12.03.51:736][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
-[2020.09.07-12.03.51:793][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
-[2020.09.07-12.03.51:925][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
-[2020.09.07-12.03.51:999][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
-[2020.09.07-12.03.52:091][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
-[2020.09.07-12.03.52:320][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
-[2020.09.07-12.03.52:432][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
-[2020.09.07-12.03.52:518][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
-[2020.09.07-12.03.52:673][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
-[2020.09.07-12.03.52:757][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
-[2020.09.07-12.03.52:825][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
-[2020.09.07-12.03.52:881][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
-[2020.09.07-12.03.52:953][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
-[2020.09.07-12.03.52:969][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
-[2020.09.07-12.03.52:997][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
-[2020.09.07-12.03.53:027][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Door_M.uasset"
-[2020.09.07-12.03.53:051][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Door_N.uasset"
-[2020.09.07-12.03.53:099][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
-[2020.09.07-12.03.53:125][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
-[2020.09.07-12.03.53:155][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
-[2020.09.07-12.03.53:177][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
-[2020.09.07-12.03.53:200][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Frame_M.uasset"
-[2020.09.07-12.03.53:232][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Frame_N.uasset"
-[2020.09.07-12.03.53:249][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Gradinet_01.uasset"
-[2020.09.07-12.03.53:344][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
-[2020.09.07-12.03.53:473][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
-[2020.09.07-12.03.53:823][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
-[2020.09.07-12.03.53:920][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
-[2020.09.07-12.03.54:067][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
-[2020.09.07-12.03.54:147][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
-[2020.09.07-12.03.54:181][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Lamp_M.uasset"
-[2020.09.07-12.03.54:214][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Lamp_N.uasset"
-[2020.09.07-12.03.54:329][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_MacroVariation.uasset"
-[2020.09.07-12.03.54:408][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
-[2020.09.07-12.03.54:484][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
-[2020.09.07-12.03.54:581][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
-[2020.09.07-12.03.54:637][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
-[2020.09.07-12.03.54:738][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
-[2020.09.07-12.03.55:193][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
-[2020.09.07-12.03.55:295][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
-[2020.09.07-12.03.55:382][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
-[2020.09.07-12.03.55:611][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
-[2020.09.07-12.03.55:680][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_RockMesh_M.uasset"
-[2020.09.07-12.03.55:738][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_RockMesh_N.uasset"
-[2020.09.07-12.03.55:831][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
-[2020.09.07-12.03.55:939][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
-[2020.09.07-12.03.56:004][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
-[2020.09.07-12.03.56:236][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
-[2020.09.07-12.03.56:361][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
-[2020.09.07-12.03.56:529][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
-[2020.09.07-12.03.56:779][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
-[2020.09.07-12.03.56:880][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
-[2020.09.07-12.03.56:956][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Shelf_M.uasset"
-[2020.09.07-12.03.56:993][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Shelf_N.uasset"
-[2020.09.07-12.03.57:013][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
-[2020.09.07-12.03.57:094][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
-[2020.09.07-12.03.57:135][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
-[2020.09.07-12.03.57:206][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Spark_Core.uasset"
-[2020.09.07-12.03.57:238][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Statue_M.uasset"
-[2020.09.07-12.03.57:260][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Statue_N.uasset"
-[2020.09.07-12.03.57:307][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_TableRound_M.uasset"
-[2020.09.07-12.03.57:334][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_TableRound_N.uasset"
-[2020.09.07-12.03.57:354][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
-[2020.09.07-12.03.57:371][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
-[2020.09.07-12.03.57:431][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
-[2020.09.07-12.03.57:482][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
-[2020.09.07-12.03.57:535][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
-[2020.09.07-12.03.57:642][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
-[2020.09.07-12.03.57:908][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Water_M.uasset"
-[2020.09.07-12.03.57:971][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Water_N.uasset"
-[2020.09.07-12.03.58:033][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
-[2020.09.07-12.03.58:108][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
-[2020.09.07-12.03.58:168][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
-[2020.09.07-12.03.58:211][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
-[2020.09.07-12.03.58:268][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
-[2020.09.07-12.03.58:352][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
-[2020.09.07-12.03.58:395][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
-[2020.09.07-12.03.58:441][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
-[2020.09.07-12.03.58:476][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
-[2020.09.07-12.03.58:930][  0]LogRenderer: Reallocating scene render targets to support 256x256 Format 10 NumSamples 1 (Frame:1).
-[2020.09.07-12.03.59:518][  0]LogSavePackage: Moving '../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Saved/Floor_400x40004E7ECFF494A9BD9F15C22A40AD1C2F2.tmp' to '../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/StarterContent/Architecture/Floor_400x400.uasset'
-[2020.09.07-12.03.59:533][  0]LogFeaturePack: Warning: Inserted 1 feature packs
-[2020.09.07-12.03.59:542][  0]Cmd: MAP LOAD FILE="../../../../../Fork/EcoSim-Week-3-Prodject/MyProject/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.09.07-12.03.59:542][  0]LightingResults: New page: Lighting Build
-[2020.09.07-12.03.59:543][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2020.09.07-12.03.59:543][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.09.07-12.03.59:544][  0]MapCheck: New page: Map Check
-[2020.09.07-12.03.59:544][  0]LightingResults: New page: Lighting Build
-[2020.09.07-12.03.59:554][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000024C70447C00), frame # 0
-[2020.09.07-12.03.59:554][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000024C7044FB00), frame # 0
-[2020.09.07-12.03.59:555][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
-[2020.09.07-12.04.00:857][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
-[2020.09.07-12.04.00:857][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000024C05BB5A00), frame # 0
-[2020.09.07-12.04.00:857][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000024C70801300), frame # 0
-[2020.09.07-12.04.01:242][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.09.07-12.04.01:261][  0]LogNavigationDataBuild: Display:    Building NavData:  Name Default class /Script/NavigationSystem.RecastNavMesh agent radius 35.0.
-[2020.09.07-12.04.01:314][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.02ms
-[2020.09.07-12.04.01:315][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.09.07-12.04.01:316][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,261ms to complete.
-[2020.09.07-12.04.01:316][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 1.774
-[2020.09.07-12.04.01:331][  0]LogUnrealEdMisc: Total Editor Startup Time, took 32.654
-[2020.09.07-12.04.02:256][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.09.07-12.04.02:270][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.09.07-12.04.02:283][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.09.07-12.04.02:296][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.09.07-12.04.02:387][  0]LogCollectionManager: Loaded 0 collections in 0.002741 seconds
-[2020.09.07-12.04.02:650][  0]LogFileCache: Scanning file cache for directory 'D:/Fork/EcoSim-Week-3-Prodject/MyProject/Saved/Collections/' took 0.00s
-[2020.09.07-12.04.02:650][  0]LogFileCache: Scanning file cache for directory 'D:/Fork/EcoSim-Week-3-Prodject/MyProject/Content/Developers/cordah/Collections/' took 0.00s
-[2020.09.07-12.04.02:650][  0]LogFileCache: Scanning file cache for directory 'D:/Fork/EcoSim-Week-3-Prodject/MyProject/Content/Collections/' took 0.00s
-[2020.09.07-12.04.02:650][  0]LogContentBrowser: Native class hierarchy populated in 0.0267 seconds. Added 3427 classes and 821 folders.
-[2020.09.07-12.04.02:698][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2020.09.07-12.04.02:740][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2020.09.07-12.04.02:805][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 2 classes and 0 folders.
-[2020.09.07-12.04.03:682][  0]LogSlate: Took 0.000307 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.09.07-12.04.03:691][  0]LogSlate: Took 0.000141 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.09.07-12.04.03:746][  0]LogSlate: Took 0.025663 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2020.09.07-12.04.04:127][  0]LogRenderer: Reallocating scene render targets to support 948x572 Format 10 NumSamples 1 (Frame:1).
-[2020.09.07-12.04.04:573][  0]LogSlate: Took 0.000396 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.09.07-12.04.04:685][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2020.09.07-12.04.04:685][  0]LogLoad: (Engine Initialization) Total time: 36.01 seconds
-[2020.09.07-12.04.04:685][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.09.07-12.04.04:697][  0]AssetCheck: New page: Asset Save: Floor_400x400
-[2020.09.07-12.04.04:697][  0]LogContentValidation: Display: Validating StaticMesh /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400
-[2020.09.07-12.04.04:748][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2020.09.07-12.04.23:766][784]LogAssetRegistry: Asset discovery search completed in 45.0635 seconds
-[2020.09.07-12.04.23:770][784]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2020.09.10-07.20.23:931][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.09.10-07.20.23:931][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.09.10-07.20.23:931][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/hamgun/Documents/GitHub/EcoSim-Week-3-Prodject/MyProject/Saved/Config/Windows/Engine.ini]
+[2020.09.10-07.20.23:931][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.09.10-07.20.23:931][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/hamgun/Documents/GitHub/EcoSim-Week-3-Prodject/MyProject/Saved/Config/Windows/Engine.ini]
+[2020.09.10-07.20.23:931][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/hamgun/Documents/GitHub/EcoSim-Week-3-Prodject/MyProject/Saved/Config/Windows/Engine.ini]
+[2020.09.10-07.20.23:931][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.09.10-07.20.23:931][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.09.10-07.20.23:931][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.09.10-07.20.23:931][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.09.10-07.20.23:931][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.09.10-07.20.23:931][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.09.10-07.20.23:931][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.09.10-07.20.23:931][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.09.10-07.20.23:931][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.09.10-07.20.23:931][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.09.10-07.20.23:931][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.09.10-07.20.23:931][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.09.10-07.20.23:931][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.09.10-07.20.23:931][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.09.10-07.20.23:931][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/hamgun/Documents/GitHub/EcoSim-Week-3-Prodject/MyProject/Saved/Config/Windows/Engine.ini]
+[2020.09.10-07.20.23:931][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.09.10-07.20.23:931][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.09.10-07.20.23:931][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.09.10-07.20.23:931][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.09.10-07.20.23:931][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.09.10-07.20.23:931][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.09.10-07.20.23:931][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.09.10-07.20.23:931][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.09.10-07.20.23:931][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.09.10-07.20.23:931][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.09.10-07.20.23:931][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.09.10-07.20.23:931][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.09.10-07.20.23:931][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.09.10-07.20.23:931][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/hamgun/Documents/GitHub/EcoSim-Week-3-Prodject/MyProject/Saved/Config/Windows/Engine.ini]
+[2020.09.10-07.20.23:931][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/hamgun/Documents/GitHub/EcoSim-Week-3-Prodject/MyProject/Saved/Config/Windows/Engine.ini]
+[2020.09.10-07.20.23:936][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/hamgun/Documents/GitHub/EcoSim-Week-3-Prodject/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.09.10-07.20.23:936][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.09.10-07.20.23:936][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.09.10-07.20.23:936][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/hamgun/Documents/GitHub/EcoSim-Week-3-Prodject/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.09.10-07.20.23:936][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.09.10-07.20.23:936][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/hamgun/Documents/GitHub/EcoSim-Week-3-Prodject/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.09.10-07.20.23:936][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.09.10-07.20.23:936][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.09.10-07.20.23:936][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.09.10-07.20.23:937][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.09.10-07.20.23:937][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.09.10-07.20.23:937][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.09.10-07.20.23:937][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.09.10-07.20.23:937][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.09.10-07.20.23:937][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.09.10-07.20.23:937][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.09.10-07.20.23:937][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.09.10-07.20.23:937][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.09.10-07.20.23:937][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.09.10-07.20.23:937][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.09.10-07.20.23:937][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.09.10-07.20.23:937][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.09.10-07.20.23:937][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.09.10-07.20.23:937][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.09.10-07.20.23:937][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/hamgun/Documents/GitHub/EcoSim-Week-3-Prodject/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.09.10-07.20.23:937][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.09.10-07.20.23:937][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.09.10-07.20.23:937][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.09.10-07.20.23:937][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.09.10-07.20.23:937][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.09.10-07.20.23:937][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.09.10-07.20.23:937][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.09.10-07.20.23:937][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.09.10-07.20.23:937][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.09.10-07.20.23:937][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.09.10-07.20.23:937][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.09.10-07.20.23:937][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.09.10-07.20.23:937][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.09.10-07.20.23:937][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.09.10-07.20.23:937][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.09.10-07.20.23:937][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.09.10-07.20.23:937][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.09.10-07.20.23:937][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.09.10-07.20.23:937][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.09.10-07.20.23:937][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.09.10-07.20.23:937][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.09.10-07.20.23:937][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.09.10-07.20.23:937][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.09.10-07.20.23:937][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.09.10-07.20.23:937][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.09.10-07.20.23:937][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.09.10-07.20.23:937][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.09.10-07.20.23:937][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.09.10-07.20.23:937][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.09.10-07.20.23:937][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.09.10-07.20.23:937][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/hamgun/Documents/GitHub/EcoSim-Week-3-Prodject/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.09.10-07.20.23:937][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.09.10-07.20.23:937][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.09.10-07.20.23:937][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.09.10-07.20.23:937][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.09.10-07.20.23:937][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.09.10-07.20.23:937][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.09.10-07.20.23:937][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.09.10-07.20.23:937][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.09.10-07.20.23:937][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.09.10-07.20.23:937][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/hamgun/Documents/GitHub/EcoSim-Week-3-Prodject/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.09.10-07.20.23:937][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.09.10-07.20.23:937][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.09.10-07.20.23:937][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.09.10-07.20.23:937][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.09.10-07.20.23:937][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.09.10-07.20.23:937][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.09.10-07.20.23:937][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.09.10-07.20.23:937][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.09.10-07.20.23:937][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.09.10-07.20.23:937][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.09.10-07.20.23:938][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.09.10-07.20.23:938][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.09.10-07.20.23:938][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.09.10-07.20.23:938][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.09.10-07.20.23:938][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.09.10-07.20.23:938][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.09.10-07.20.23:938][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.09.10-07.20.23:938][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.09.10-07.20.23:938][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.09.10-07.20.23:938][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.09.10-07.20.23:938][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.09.10-07.20.23:938][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.09.10-07.20.23:938][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.09.10-07.20.23:938][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.09.10-07.20.23:938][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.09.10-07.20.23:938][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.09.10-07.20.23:938][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/hamgun/Documents/GitHub/EcoSim-Week-3-Prodject/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.09.10-07.20.23:938][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.09.10-07.20.23:938][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.09.10-07.20.23:938][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/hamgun/Documents/GitHub/EcoSim-Week-3-Prodject/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.09.10-07.20.23:938][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.09.10-07.20.23:938][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.09.10-07.20.23:938][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.09.10-07.20.23:938][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.09.10-07.20.23:938][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.09.10-07.20.23:938][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.09.10-07.20.23:938][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.09.10-07.20.23:938][  0]LogInit: Selected Device Profile: [Windows]
+[2020.09.10-07.20.23:938][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.09.10-07.20.23:938][  0]LogHAL: Display: Platform has ~ 16 GB [17042038784 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.09.10-07.20.23:938][  0]LogInit: Going up to parent DeviceProfile []
+[2020.09.10-07.20.23:938][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/hamgun/Documents/GitHub/EcoSim-Week-3-Prodject/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.09.10-07.20.23:938][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.09.10-07.20.23:938][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.09.10-07.20.23:938][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/hamgun/Documents/GitHub/EcoSim-Week-3-Prodject/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.09.10-07.20.23:938][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.09.10-07.20.23:938][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/hamgun/Documents/GitHub/EcoSim-Week-3-Prodject/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.09.10-07.20.23:938][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.09.10-07.20.23:938][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.09.10-07.20.23:938][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.09.10-07.20.23:938][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.09.10-07.20.23:938][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.09.10-07.20.23:938][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.09.10-07.20.23:938][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.09.10-07.20.23:938][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.09.10-07.20.23:938][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.09.10-07.20.23:938][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.09.10-07.20.23:938][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.09.10-07.20.23:938][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.09.10-07.20.23:938][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.09.10-07.20.23:938][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.09.10-07.20.23:938][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.09.10-07.20.23:938][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.09.10-07.20.23:938][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.09.10-07.20.23:938][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.09.10-07.20.23:938][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/hamgun/Documents/GitHub/EcoSim-Week-3-Prodject/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.09.10-07.20.23:938][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.09.10-07.20.23:939][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.09.10-07.20.23:939][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.09.10-07.20.23:939][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.09.10-07.20.23:939][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.09.10-07.20.23:939][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.09.10-07.20.23:939][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.09.10-07.20.23:939][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.09.10-07.20.23:939][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.09.10-07.20.23:939][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.09.10-07.20.23:939][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.09.10-07.20.23:939][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.09.10-07.20.23:939][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.09.10-07.20.23:939][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.09.10-07.20.23:939][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.09.10-07.20.23:939][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.09.10-07.20.23:939][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.09.10-07.20.23:939][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.09.10-07.20.23:939][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.09.10-07.20.23:939][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.09.10-07.20.23:939][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.09.10-07.20.23:939][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.09.10-07.20.23:939][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.09.10-07.20.23:939][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.09.10-07.20.23:939][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.09.10-07.20.23:939][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.09.10-07.20.23:939][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.09.10-07.20.23:939][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.09.10-07.20.23:939][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.09.10-07.20.23:939][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.09.10-07.20.23:939][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/hamgun/Documents/GitHub/EcoSim-Week-3-Prodject/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.09.10-07.20.23:939][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.09.10-07.20.23:939][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.09.10-07.20.23:939][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.09.10-07.20.23:939][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.09.10-07.20.23:939][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.09.10-07.20.23:939][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.09.10-07.20.23:939][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.09.10-07.20.23:939][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.09.10-07.20.23:939][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.09.10-07.20.23:939][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/hamgun/Documents/GitHub/EcoSim-Week-3-Prodject/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.09.10-07.20.23:939][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.09.10-07.20.23:939][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.09.10-07.20.23:939][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.09.10-07.20.23:939][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.09.10-07.20.23:939][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.09.10-07.20.23:939][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.09.10-07.20.23:939][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.09.10-07.20.23:939][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.09.10-07.20.23:939][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.09.10-07.20.23:939][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.09.10-07.20.23:939][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.09.10-07.20.23:939][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.09.10-07.20.23:939][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.09.10-07.20.23:939][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.09.10-07.20.23:939][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.09.10-07.20.23:939][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.09.10-07.20.23:939][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.09.10-07.20.23:939][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.09.10-07.20.23:939][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.09.10-07.20.23:939][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.09.10-07.20.23:939][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.09.10-07.20.23:939][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.09.10-07.20.23:939][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.09.10-07.20.23:939][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.09.10-07.20.23:939][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.09.10-07.20.23:939][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.09.10-07.20.23:939][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/hamgun/Documents/GitHub/EcoSim-Week-3-Prodject/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.09.10-07.20.23:940][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.09.10-07.20.23:940][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.09.10-07.20.23:940][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/hamgun/Documents/GitHub/EcoSim-Week-3-Prodject/MyProject/Saved/Config/Windows/Scalability.ini]
+[2020.09.10-07.20.23:940][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.09.10-07.20.23:940][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.09.10-07.20.23:940][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.09.10-07.20.23:940][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.09.10-07.20.23:940][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.09.10-07.20.23:940][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.09.10-07.20.23:940][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.09.10-07.20.23:940][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.09.10-07.20.23:940][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.09.10-07.20.23:940][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.09.10-07.20.23:940][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.09.10-07.20.23:940][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/hamgun/Documents/GitHub/EcoSim-Week-3-Prodject/MyProject/Saved/Config/Windows/Engine.ini]
+[2020.09.10-07.20.23:940][  0]LogInit: Computer: PC06
+[2020.09.10-07.20.23:940][  0]LogInit: User: hamgun
+[2020.09.10-07.20.23:940][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.09.10-07.20.23:940][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.09.10-07.20.23:940][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.09.10-07.20.23:940][  0]LogMemory: Platform Memory Stats for Windows
+[2020.09.10-07.20.23:940][  0]LogMemory: Process Physical Memory: 114.39 MB used, 114.40 MB peak
+[2020.09.10-07.20.23:940][  0]LogMemory: Process Virtual Memory: 103.29 MB used, 103.29 MB peak
+[2020.09.10-07.20.23:940][  0]LogMemory: Physical Memory: 5484.95 MB used,  10767.61 MB free, 16252.55 MB total
+[2020.09.10-07.20.23:940][  0]LogMemory: Virtual Memory: 5135.01 MB used,  134212592.00 MB free, 134217728.00 MB total
+[2020.09.10-07.20.23:946][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.09.10-07.20.23:991][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.09.10-07.20.23:993][  0]LogInit: Using OS detected language (sv-SE).
+[2020.09.10-07.20.23:993][  0]LogInit: Using OS detected locale (sv-SE).
+[2020.09.10-07.20.24:000][  0]LogTextLocalizationManager: No localization for 'sv-SE' exists, so 'en' will be used for the language.
+[2020.09.10-07.20.24:216][  0]LogInit: Setting process to per monitor DPI aware
+[2020.09.10-07.20.24:249][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.09.10-07.20.24:249][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.09.10-07.20.24:478][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.09.10-07.20.24:478][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.09.10-07.20.24:478][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.09.10-07.20.24:478][  0]LogD3D11RHI: D3D11 adapters:
+[2020.09.10-07.20.24:550][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 3GB' (Feature Level 11_0)
+[2020.09.10-07.20.24:550][  0]LogD3D11RHI:       2988/0/8126 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.09.10-07.20.24:565][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2020.09.10-07.20.24:565][  0]LogD3D11RHI:       128/0/8126 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2020.09.10-07.20.24:568][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.09.10-07.20.24:568][  0]LogD3D11RHI:       0/0/8126 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.09.10-07.20.24:568][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.09.10-07.20.24:575][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.09.10-07.20.24:575][  0]LogD3D11RHI:     GPU DeviceId: 0x1c02 (for the marketing name, search the web for "GPU Device Id")
+[2020.09.10-07.20.24:575][  0]LogWindows: EnumDisplayDevices:
+[2020.09.10-07.20.24:575][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:0 D:1)
+[2020.09.10-07.20.24:575][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2020.09.10-07.20.24:575][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2020.09.10-07.20.24:576][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 3GB' (P:1 D:1)
+[2020.09.10-07.20.24:576][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
+[2020.09.10-07.20.24:576][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
+[2020.09.10-07.20.24:576][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
+[2020.09.10-07.20.24:577][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2020.09.10-07.20.24:577][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 3GB
+[2020.09.10-07.20.24:577][  0]LogD3D11RHI:   Driver Version: 451.67 (internal:27.21.14.5167, unified:451.67)
+[2020.09.10-07.20.24:577][  0]LogD3D11RHI:      Driver Date: 7-5-2020
+[2020.09.10-07.20.24:577][  0]LogRHI: Texture pool is 2091 MB (70% of 2988 MB)
+[2020.09.10-07.20.24:623][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.09.10-07.20.24:625][  0]LogD3D11RHI: [Aftermath] Enabled and primed
+[2020.09.10-07.20.24:625][  0]LogD3D11RHI: Async texture creation enabled
+[2020.09.10-07.20.24:625][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.09.10-07.20.24:665][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.09.10-07.20.24:997][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.09.10-07.20.25:024][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.09.10-07.20.25:024][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.09.10-07.20.25:024][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.09.10-07.20.25:024][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.09.10-07.20.25:024][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.09.10-07.20.25:024][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.09.10-07.20.25:024][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.09.10-07.20.25:024][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.09.10-07.20.25:024][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.09.10-07.20.25:024][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.09.10-07.20.25:052][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.09.10-07.20.25:052][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.09.10-07.20.25:064][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.09.10-07.20.25:074][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.09.10-07.20.25:085][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.09.10-07.20.25:096][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.09.10-07.20.25:107][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.09.10-07.20.25:117][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.09.10-07.20.25:128][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.09.10-07.20.25:159][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.09.10-07.20.25:159][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.09.10-07.20.25:178][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.09.10-07.20.25:178][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.09.10-07.20.25:189][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.09.10-07.20.25:201][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.09.10-07.20.25:212][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.09.10-07.20.25:223][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.09.10-07.20.25:223][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.09.10-07.20.25:234][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.09.10-07.20.25:319][  0]LogShaderCompilers: Guid format shader working directory is -18 characters bigger than the processId version (C:/Users/hamgun/Documents/GitHub/EcoSim-Week-3-Prodject/MyProject/Intermediate/Shaders/WorkingDirectory/9596/).
+[2020.09.10-07.20.25:319][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/hamgun/AppData/Local/Temp/UnrealShaderWorkingDir/8A64DB794E92D8A565B332A0C076CD9A/'.
+[2020.09.10-07.20.25:320][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.09.10-07.20.25:320][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.09.10-07.20.25:320][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.09.10-07.20.26:181][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.09.10-07.20.26:237][  0]LogDerivedDataCache: Loaded boot cache 0.06s 75MB C:/Users/hamgun/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.09.10-07.20.26:237][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/hamgun/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.09.10-07.20.26:249][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/hamgun/Documents/GitHub/EcoSim-Week-3-Prodject/MyProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.09.10-07.20.26:249][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.09.10-07.20.26:249][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/hamgun/Documents/GitHub/EcoSim-Week-3-Prodject/MyProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.09.10-07.20.26:249][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.09.10-07.20.26:261][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.09.10-07.20.26:261][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.09.10-07.20.26:261][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.09.10-07.20.26:266][  0]LogDerivedDataCache: Using Local data cache path C:/Users/hamgun/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.09.10-07.20.26:266][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.09.10-07.20.26:266][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.09.10-07.20.26:323][  0]LogSlate: Using FreeType 2.10.0
+[2020.09.10-07.20.26:323][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.09.10-07.20.26:358][  0]LogAssetRegistry: FAssetRegistry took 0.0029 seconds to start up
+[2020.09.10-07.20.26:618][  0]LogInit: Selected Device Profile: [Windows]
+[2020.09.10-07.20.27:056][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.09.10-07.20.27:056][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.09.10-07.20.27:056][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.09.10-07.20.27:056][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.09.10-07.20.27:056][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.09.10-07.20.27:117][  0]LogNetVersion: MyProject 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 709303259)
+[2020.09.10-07.20.28:700][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (00000246836FE980), frame # 0
+[2020.09.10-07.20.28:700][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002468456FC40), frame # 0
+[2020.09.10-07.20.28:701][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000246835DDC00), frame # 0
+[2020.09.10-07.20.28:791][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.072079 seconds
+[2020.09.10-07.20.28:797][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.09.10-07.20.28:797][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.09.10-07.20.28:797][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.09.10-07.20.30:847][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.09.10-07.20.30:868][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.09.10-07.20.31:077][  0]LogLinker: Warning: Failed to load '/Game/ThirdPersonBP/ThirdPersonOverview': Can't find file.
+[2020.09.10-07.20.31:077][  0]LogLinker: Warning: Failed to load '/Game/ThirdPersonBP/ThirdPersonOverview': Can't find file.
+[2020.09.10-07.20.31:077][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview_C'
+[2020.09.10-07.20.31:275][  0]SourceControl: Source control is disabled
+[2020.09.10-07.20.31:275][  0]SourceControl: Source control is disabled
+[2020.09.10-07.20.31:294][  0]SourceControl: Source control is disabled
+[2020.09.10-07.20.31:315][  0]SourceControl: Source control is disabled
+[2020.09.10-07.20.31:353][  0]SourceControl: Source control is disabled
+[2020.09.10-07.20.32:644][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.09.10-07.20.32:756][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.09.10-07.20.32:756][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.09.10-07.20.32:962][  0]LogOcInput: OculusInput pre-init called
+[2020.09.10-07.20.33:007][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.09.10-07.20.33:007][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.09.10-07.20.33:216][  0]LogEngine: Initializing Engine...
+[2020.09.10-07.20.33:218][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.09.10-07.20.33:218][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.09.10-07.20.33:219][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.09.10-07.20.33:524][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.09.10-07.20.33:605][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.09.10-07.20.33:605][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000024687033C00), frame # 0
+[2020.09.10-07.20.33:605][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002468703BB00), frame # 0
+[2020.09.10-07.20.33:639][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.10-07.20.33:639][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.10-07.20.33:639][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.10-07.20.33:639][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.10-07.20.33:639][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.10-07.20.33:639][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.10-07.20.33:639][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.10-07.20.33:639][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.10-07.20.33:639][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.10-07.20.33:639][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.10-07.20.33:687][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.10-07.20.33:687][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.09.10-07.20.33:749][  0]LogAudioMixer: Display: Using Audio Device Högtalare (Logitech USB Headset)
+[2020.09.10-07.20.33:750][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.09.10-07.20.33:774][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.09.10-07.20.33:774][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.09.10-07.20.33:775][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.09.10-07.20.33:776][  0]LogInit: FAudioDevice initialized.
+[2020.09.10-07.20.33:776][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.09.10-07.20.33:845][  0]LogDerivedDataCache: Saved boot cache 0.07s 75MB C:/Users/hamgun/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.09.10-07.20.33:849][  0]LogInit: Texture streaming: Enabled
+[2020.09.10-07.20.33:936][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.09.10-07.20.33:936][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.09.10-07.20.33:938][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.09.10-07.20.34:104][  0]LogInit: Transaction tracking system initialized
+[2020.09.10-07.20.34:289][  0]BlueprintLog: New page: Editor Load
+[2020.09.10-07.20.34:716][  0]LocalizationService: Localization service is disabled
+[2020.09.10-07.20.35:559][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.09.10-07.20.35:559][  0]LogCook: Display: Mobile HDR setting 1
+[2020.09.10-07.20.36:242][  0]LogFileCache: Scanning file cache for directory 'C:/Users/hamgun/Documents/GitHub/EcoSim-Week-3-Prodject/MyProject/Content/' took 0.01s
+[2020.09.10-07.20.36:679][  0]SourceControl: Source control is disabled
+[2020.09.10-07.20.36:679][  0]LogUnrealEdMisc: Loading editor; pre map load, took 15.021
+[2020.09.10-07.20.36:679][  0]Cmd: MAP LOAD FILE="C:/Users/hamgun/Documents/GitHub/EcoSim-Week-3-Prodject/MyProject/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.09.10-07.20.36:685][  0]LightingResults: New page: Lighting Build
+[2020.09.10-07.20.36:701][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.09.10-07.20.36:701][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.10-07.20.36:701][  0]MapCheck: New page: Map Check
+[2020.09.10-07.20.36:701][  0]LightingResults: New page: Lighting Build
+[2020.09.10-07.20.36:709][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000024687033C00), frame # 0
+[2020.09.10-07.20.36:709][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002468703BB00), frame # 0
+[2020.09.10-07.20.36:710][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2020.09.10-07.20.37:517][  0]LogLinker: Warning: While loading 'C:/Users/hamgun/Documents/GitHub/EcoSim-Week-3-Prodject/MyProject/Content/TopDownBP/Maps/TopDownExampleMap.umap' failed to load '/Game/TopDownBP/Maps/TopDownExampleMap_BuiltData': Can't find file.
+[2020.09.10-07.20.37:517][  0]LogLinker: Warning: While loading 'C:/Users/hamgun/Documents/GitHub/EcoSim-Week-3-Prodject/MyProject/Content/TopDownBP/Maps/TopDownExampleMap.umap' failed to load '/Game/TopDownBP/Maps/TopDownExampleMap_BuiltData': Can't find file.
+[2020.09.10-07.20.37:536][  0]LogLinker: Warning: While loading 'C:/Users/hamgun/Documents/GitHub/EcoSim-Week-3-Prodject/MyProject/Content/TopDownBP/Maps/TopDownExampleMap.umap' failed to load '/Game/TopDownBP/Maps/TopDownExampleMap_BuiltData': Can't find file.
+[2020.09.10-07.20.37:537][  0]LogLinker: Warning: While loading 'C:/Users/hamgun/Documents/GitHub/EcoSim-Week-3-Prodject/MyProject/Content/TopDownBP/Maps/TopDownExampleMap.umap' failed to load '/Game/TopDownBP/Maps/TopDownExampleMap_BuiltData': Can't find file.
+[2020.09.10-07.20.37:538][  0]LogLinker: Warning: Failed to load '/Game/TopDownBP/Maps/TopDownExampleMap_BuiltData': Can't find file.
+[2020.09.10-07.20.37:538][  0]LogLinker: Warning: Failed to load '/Game/TopDownBP/Maps/TopDownExampleMap_BuiltData': Can't find file.
+[2020.09.10-07.20.37:538][  0]LogLinker: Warning: Failed to load '/Game/TopDownBP/Maps/TopDownExampleMap_BuiltData': Can't find file.
+[2020.09.10-07.20.37:538][  0]LogLinker: Warning: Failed to load '/Game/TopDownBP/Maps/TopDownExampleMap_BuiltData': Can't find file.
+[2020.09.10-07.20.37:641][  0]LogLinker: Warning: While loading 'C:/Users/hamgun/Documents/GitHub/EcoSim-Week-3-Prodject/MyProject/Content/TopDownBP/Maps/TopDownExampleMap.umap' failed to load '/Game/TopDownBP/Maps/TopDownExampleMap_BuiltData': Can't find file.
+[2020.09.10-07.20.37:641][  0]LoadErrors: Failed to load /Game/TopDownBP/Maps/TopDownExampleMap_BuiltData.TopDownExampleMap_BuiltData Referenced by PersistentLevel
+[2020.09.10-07.20.37:641][  0]LogLinker: Warning: While loading 'C:/Users/hamgun/Documents/GitHub/EcoSim-Week-3-Prodject/MyProject/Content/TopDownBP/Maps/TopDownExampleMap.umap' failed to load '/Game/TopDownBP/Maps/TopDownExampleMap_BuiltData': Can't find file.
+[2020.09.10-07.20.37:641][  0]LoadErrors: Failed to load /Game/TopDownBP/Maps/TopDownExampleMap_BuiltData.TopDownExampleMap_BuiltData Referenced by PersistentLevel
+[2020.09.10-07.20.38:217][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2020.09.10-07.20.38:217][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002469456FE00), frame # 0
+[2020.09.10-07.20.38:217][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000024696C1B9C0), frame # 0
+[2020.09.10-07.20.38:536][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.09.10-07.20.38:566][  0]LogNavigationDataBuild: Display:    Building NavData:  Name Default class /Script/NavigationSystem.RecastNavMesh agent radius 35.0.
+[2020.09.10-07.20.38:606][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2020.09.10-07.20.38:606][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.09.10-07.20.38:606][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,115ms to complete.
+[2020.09.10-07.20.38:606][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 1.928
+[2020.09.10-07.20.38:626][  0]LogUnrealEdMisc: Total Editor Startup Time, took 16.968
+[2020.09.10-07.20.39:254][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.10-07.20.39:265][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.10-07.20.39:274][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.10-07.20.39:282][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.10-07.20.39:465][  0]LogCollectionManager: Loaded 0 collections in 0.000877 seconds
+[2020.09.10-07.20.39:809][  0]LogFileCache: Scanning file cache for directory 'C:/Users/hamgun/Documents/GitHub/EcoSim-Week-3-Prodject/MyProject/Saved/Collections/' took 0.00s
+[2020.09.10-07.20.39:809][  0]LogFileCache: Scanning file cache for directory 'C:/Users/hamgun/Documents/GitHub/EcoSim-Week-3-Prodject/MyProject/Content/Developers/hamgun/Collections/' took 0.00s
+[2020.09.10-07.20.39:809][  0]LogFileCache: Scanning file cache for directory 'C:/Users/hamgun/Documents/GitHub/EcoSim-Week-3-Prodject/MyProject/Content/Collections/' took 0.00s
+[2020.09.10-07.20.39:809][  0]LogContentBrowser: Native class hierarchy populated in 0.0097 seconds. Added 3427 classes and 821 folders.
+[2020.09.10-07.20.39:905][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.09.10-07.20.43:569][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.09.10-07.20.43:693][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 0 folders.
+[2020.09.10-07.20.44:666][  0]LogSlate: Took 0.005044 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.09.10-07.20.44:686][  0]LogSlate: Took 0.004807 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.09.10-07.20.44:757][  0]LogSlate: Took 0.031633 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.09.10-07.20.45:593][  0]LogRenderer: Reallocating scene render targets to support 1208x536 Format 10 NumSamples 1 (Frame:1).
+[2020.09.10-07.20.46:189][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.09.10-07.20.46:189][  0]LogLoad: (Engine Initialization) Total time: 24.53 seconds
+[2020.09.10-07.20.46:189][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.09.10-07.20.46:252][  0]LogAssetRegistry: Asset discovery search completed in 19.8951 seconds
+[2020.09.10-07.20.46:256][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2020.09.10-07.20.46:365][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.09.10-07.20.46:452][  0]LogSlate: Took 0.019889 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.09.10-07.20.46:547][  0]LogSlate: Took 0.043074 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.09.10-07.20.47:563][  4]LogSlate: Took 0.000289 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.09.10-07.20.48:238][  8]LogSlate: Window 'Message Log' being destroyed
+[2020.09.10-07.20.48:242][  8]LogSlate: Window 'Message Log' being destroyed
+[2020.09.10-07.20.57:407][860]LogAssetEditorSubsystem: Opening Asset editor for World /Game/TopDownBP/Maps/MapGen.MapGen
+[2020.09.10-07.20.57:435][860]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2020.09.10-07.20.57:437][860]Cmd: MAP LOAD FILE="C:/Users/hamgun/Documents/GitHub/EcoSim-Week-3-Prodject/MyProject/Content/TopDownBP/Maps/MapGen.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.09.10-07.20.57:437][860]LightingResults: New page: Lighting Build
+[2020.09.10-07.20.57:437][860]LoadErrors: New page: Loading map: MapGen.umap
+[2020.09.10-07.20.57:438][860]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.09.10-07.20.57:438][860]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.10-07.20.57:438][860]MapCheck: New page: Map Check
+[2020.09.10-07.20.57:438][860]LightingResults: New page: Lighting Build
+[2020.09.10-07.20.57:482][860]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002469456FE00), frame # 860
+[2020.09.10-07.20.57:482][860]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000024696C1B9C0), frame # 860
+[2020.09.10-07.20.57:483][860]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2020.09.10-07.20.57:509][860]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.09.10-07.20.57:509][860]LogAIModule: Creating AISystem for world MapGen
+[2020.09.10-07.20.57:510][860]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000024694708200), frame # 860
+[2020.09.10-07.20.57:510][860]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000246944607C0), frame # 860
+[2020.09.10-07.20.57:510][860]LogNavigationDataBuild: Display:    Building NavData:  Name Default class /Script/NavigationSystem.RecastNavMesh agent radius 35.0.
+[2020.09.10-07.20.57:521][860]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2020.09.10-07.20.57:546][860]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.09.10-07.20.57:546][860]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,103ms to complete.
+[2020.09.10-07.20.57:546][860]LogFileHelpers: Loading map 'MapGen' took 0.109
+[2020.09.10-07.21.00:466][140]LogTemp: Repeating last play command: Simulate
+[2020.09.10-07.21.00:498][140]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.10-07.21.00:506][140]PIE: New page: SIE session: MapGen (10 sep. 2020 11:21:00)
+[2020.09.10-07.21.00:517][140]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.09.10-07.21.00:521][140]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.09.10-07.21.00:522][140]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_MapGen
+[2020.09.10-07.21.00:533][140]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011280s)
+[2020.09.10-07.21.00:534][140]LogAIModule: Creating AISystem for world MapGen
+[2020.09.10-07.21.00:534][140]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000024691C03E00), frame # 1140
+[2020.09.10-07.21.00:534][140]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002469F3EE5C0), frame # 1140
+[2020.09.10-07.21.00:534][140]LogPlayLevel: PIE: World Init took: (0.001460s)
+[2020.09.10-07.21.00:534][140]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/MapGen.MapGen to /Game/TopDownBP/Maps/UEDPIE_0_MapGen.MapGen (0.012903s)
+[2020.09.10-07.21.00:543][140]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2020.09.10-07.21.00:544][140]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.10-07.21.00:544][140]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.10-07.21.00:544][140]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.10-07.21.00:544][140]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.10-07.21.00:544][140]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.10-07.21.00:544][140]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.10-07.21.00:544][140]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.10-07.21.00:544][140]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.10-07.21.00:545][140]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.10-07.21.00:545][140]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.10-07.21.00:550][140]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.10-07.21.00:550][140]LogAudioMixer: Display: 1: FrontRight
+[2020.09.10-07.21.00:570][140]LogAudioMixer: Display: Using Audio Device Högtalare (Logitech USB Headset)
+[2020.09.10-07.21.00:570][140]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.09.10-07.21.00:570][140]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.09.10-07.21.00:570][140]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.09.10-07.21.00:571][140]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.09.10-07.21.00:589][140]LogInit: FAudioDevice initialized.
+[2020.09.10-07.21.00:601][140]LogLoad: Game class is 'TopDownGameMode_C'
+[2020.09.10-07.21.00:640][140]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_MapGen.MapGen up for play (max tick rate 0) at 2020.09.10-09.21.00
+[2020.09.10-07.21.00:641][140]LogWorld: Bringing up level for play took: 0.000636
+[2020.09.10-07.21.00:641][140]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2020.09.10-07.21.00:719][140]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2020.09.10-07.21.00:865][140]PIE: Server logged in
+[2020.09.10-07.21.00:867][140]PIE: Play in editor total start time 0,387 seconds.
+[2020.09.10-07.21.04:761][456]LogBlueprintUserMessages: [Gen_5] 51
+[2020.09.10-07.21.04:763][456]LogBlueprintUserMessages: [Gen_5] 52
+[2020.09.10-07.21.09:921][954]LogBlueprintUserMessages: [Gen_5] 53
+[2020.09.10-07.21.09:922][954]LogBlueprintUserMessages: [Gen_5] 54
+[2020.09.10-07.21.14:923][425]LogBlueprintUserMessages: [Gen_5] 55
+[2020.09.10-07.21.14:924][425]LogBlueprintUserMessages: [Gen_5] 56
+[2020.09.10-07.21.19:926][897]LogBlueprintUserMessages: [Gen_5] 57
+[2020.09.10-07.21.19:927][897]LogBlueprintUserMessages: [Gen_5] 58
+[2020.09.10-07.21.24:923][367]LogBlueprintUserMessages: [Gen_5] 59
+[2020.09.10-07.21.24:925][367]LogBlueprintUserMessages: [Gen_5] 60
+[2020.09.10-07.21.29:928][817]LogBlueprintUserMessages: [Gen_5] 61
+[2020.09.10-07.21.29:929][817]LogBlueprintUserMessages: [Gen_5] 62
+[2020.09.10-07.21.34:924][289]LogBlueprintUserMessages: [Gen_5] 63
+[2020.09.10-07.21.34:925][289]LogBlueprintUserMessages: [Gen_5] 64
+[2020.09.10-07.21.39:936][752]LogBlueprintUserMessages: [Gen_5] 65
+[2020.09.10-07.21.39:938][752]LogBlueprintUserMessages: [Gen_5] 66
+[2020.09.10-07.21.44:938][208]LogBlueprintUserMessages: [Gen_5] 67
+[2020.09.10-07.21.44:939][208]LogBlueprintUserMessages: [Gen_5] 68
+[2020.09.10-07.21.49:936][667]LogBlueprintUserMessages: [Gen_5] 69
+[2020.09.10-07.21.49:937][667]LogBlueprintUserMessages: [Gen_5] 70
+[2020.09.10-07.21.54:932][111]LogBlueprintUserMessages: [Gen_5] 71
+[2020.09.10-07.21.54:933][111]LogBlueprintUserMessages: [Gen_5] 72
+[2020.09.10-07.21.59:946][544]LogBlueprintUserMessages: [Gen_5] 73
+[2020.09.10-07.21.59:947][544]LogBlueprintUserMessages: [Gen_5] 74
+[2020.09.10-07.22.04:914][ 60]LogBlueprintUserMessages: [Gen_5] 75
+[2020.09.10-07.22.04:916][ 60]LogBlueprintUserMessages: [Gen_5] 76
+[2020.09.10-07.22.09:917][639]LogBlueprintUserMessages: [Gen_5] 77
+[2020.09.10-07.22.09:918][639]LogBlueprintUserMessages: [Gen_5] 78
+[2020.09.10-07.22.14:930][231]LogBlueprintUserMessages: [Gen_5] 79
+[2020.09.10-07.22.14:931][231]LogBlueprintUserMessages: [Gen_5] 80
+[2020.09.10-07.22.19:938][826]LogBlueprintUserMessages: [Gen_5] 81
+[2020.09.10-07.22.19:939][826]LogBlueprintUserMessages: [Gen_5] 82
+[2020.09.10-07.22.24:962][424]LogBlueprintUserMessages: [Gen_5] 83
+[2020.09.10-07.22.24:964][424]LogBlueprintUserMessages: [Gen_5] 84
+[2020.09.10-07.22.29:976][ 20]LogBlueprintUserMessages: [Gen_5] 85
+[2020.09.10-07.22.29:977][ 20]LogBlueprintUserMessages: [Gen_5] 86
+[2020.09.10-07.22.34:993][618]LogBlueprintUserMessages: [Gen_5] 87
+[2020.09.10-07.22.34:994][618]LogBlueprintUserMessages: [Gen_5] 88
+[2020.09.10-07.22.40:017][217]LogBlueprintUserMessages: [Gen_5] 89
+[2020.09.10-07.22.40:019][217]LogBlueprintUserMessages: [Gen_5] 90
+[2020.09.10-07.22.45:032][815]LogBlueprintUserMessages: [Gen_5] 91
+[2020.09.10-07.22.45:033][815]LogBlueprintUserMessages: [Gen_5] 92
+[2020.09.10-07.22.50:055][414]LogBlueprintUserMessages: [Gen_5] 93
+[2020.09.10-07.22.50:056][414]LogBlueprintUserMessages: [Gen_5] 94
+[2020.09.10-07.22.55:067][ 12]LogBlueprintUserMessages: [Gen_5] 95
+[2020.09.10-07.22.55:068][ 12]LogBlueprintUserMessages: [Gen_5] 96
+[2020.09.10-07.23.00:081][610]LogBlueprintUserMessages: [Gen_5] 97
+[2020.09.10-07.23.00:082][610]LogBlueprintUserMessages: [Gen_5] 98
+[2020.09.10-07.23.05:105][207]LogBlueprintUserMessages: [Gen_5] 99
+[2020.09.10-07.23.05:106][207]LogBlueprintUserMessages: [Gen_5] 100
+[2020.09.10-07.23.07:313][424]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.10-07.23.07:313][424]LogWorld: BeginTearingDown for /Game/TopDownBP/Maps/UEDPIE_0_MapGen
+[2020.09.10-07.23.07:314][424]LogWorld: UWorld::CleanupWorld for MapGen, bSessionEnded=true, bCleanupResources=true
+[2020.09.10-07.23.07:316][424]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.10-07.23.07:323][424]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.09.10-07.23.07:324][424]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.10-07.23.07:357][424]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.10-07.23.07:359][424]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002469F3EE5C0), frame # 14424
+[2020.09.10-07.23.07:359][424]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000024691C03E00), frame # 14424
+[2020.09.10-07.23.07:360][424]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2020.09.10-07.23.07:384][425]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2020.09.10-07.23.21:741][ 50]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/CounterWidght.CounterWidght
+[2020.09.10-07.23.22:807][ 50]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 125 classes and 0 folders.
+[2020.09.10-07.23.24:954][ 50]LogSlate: Took 0.004273 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.09.10-07.23.45:860][114]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MyAiController.MyAiController
+[2020.09.10-07.23.47:227][115]LogSlate: Took 0.023728 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.09.10-07.24.03:685][564]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/Gen.Gen
