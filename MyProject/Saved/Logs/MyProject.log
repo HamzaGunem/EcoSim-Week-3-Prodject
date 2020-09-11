@@ -695,3 +695,4 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.09.11-07.26.51:698][872]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,116ms to complete.
 [2020.09.11-07.26.51:698][872]LogFileHelpers: Loading map 'MapGen' took 0.194
 [2020.09.11-08.42.21:470][912]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.09.11-11.04.44:328][670]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
